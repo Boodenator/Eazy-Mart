@@ -202,6 +202,7 @@ header {
      .h2-women {
         display: flex;
         text-align: center;
+        justify-content: center;
         color: #333;
         width: 100%;
         margin-bottom: 30px;
@@ -233,6 +234,7 @@ header {
 
 .products {
     display: flex;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -240,13 +242,39 @@ header {
     border: #5b42f3;
     border-radius: 50px;
 }
+.image-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
 .image-container img {
+    border-radius: 20px;
     width: 200px; /* Set the desired width */
     height: 200px; /* Set the desired height */
     object-fit: cover; /* Ensure the image covers the area without distortion */
 }
 .price {
     display: flex;
-    align-items: center;
+    align-items: space-between;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.elect-button {
+    background-color: #5b42f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.h1-women {
+    display: flex;
+    text-align: center;
     justify-content: center;
+    color: #050505;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: blueviolet;
+    padding: 50px;
 }
