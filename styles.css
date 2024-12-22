@@ -230,3 +230,23 @@ header {
         color: #666;
         margin-top: 5px;
     }
+
+.products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    border: #5b42f3;
+    border-radius: 50px;
+}
+.image-container img {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
