@@ -53,3 +53,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
     showBanner(currentBannerIndex);
 });
+
+// Example cart array
+let cart = [];
+
+// Add an item to the cart
+function addToCart(item) {
+  cart.push(item);
+  updateCartCount();
+}
+
+// Update the cart count display
+function updateCartCount() {
+  document.getElementById("cart-count").textContent = cart.length;
+}
+
+// Handle cart click
+function handleCartClick() {
+  console.log("Cart clicked. Current cart:", cart);
+}
