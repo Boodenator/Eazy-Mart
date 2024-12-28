@@ -1,0 +1,92 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1 {
+  color: rgb(26, 9, 54);
+  text-align: center;
+}
+.header1 {
+  color: rgb(77, 30, 153);
+  text-align: center;
+}
+
+.images {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+  width: 300px;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* Home.css or App.css */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+.product-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.product-card img {
+  width: 100%; /* Make the image fill the card */
+  height: auto; /* Maintain the aspect ratio of the image */
+  border-radius: 8px;
+  object-fit: cover; /* Ensure image covers the container without distortion */
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.product-card a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .product-list {
+    grid-template-columns: 1fr; /* 1 item per row on very small screens */
+  }
+}
+
+.viewedProduct {
+  color: red;
+  font-weight: bolder;
+}
