@@ -4,9 +4,11 @@
   font-weight: 400;
 }
 
-h1 {
-  color: rgb(26, 9, 54);
+.homeHeader {
+  color: rgb(6, 0, 15);
   text-align: center;
+  text-decoration: double;
+  font-weight: bold;
 }
 .header1 {
   color: rgb(77, 30, 153);
@@ -22,7 +24,7 @@ h1 {
   grid-template-rows: repeat(3, 1fr);
 }
 
-/* Home.css or App.css */
+
 .product-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 items per row */
@@ -89,4 +91,8 @@ h1 {
 .viewedProduct {
   color: red;
   font-weight: bolder;
+}
+
+body {
+  background-color: rgb(160, 89, 226);
 }

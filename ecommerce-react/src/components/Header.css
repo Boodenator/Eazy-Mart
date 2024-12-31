@@ -1,0 +1,16 @@
+.headerNav {
+    margin-right: 30px;
+    background-color: rgb(129, 129, 180);
+    display: flex;
+    gap: 20px; /* Add space between links */
+  }
+  
+  .headerNav a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set link color */
+    font-size: 16px; /* Set font size */
+  }
+  
+  .headerNav a:hover {
+    color: blue; /* Change color on hover */
+  }

@@ -2,7 +2,7 @@
 import React from 'react';
 
 const Footer = () => {
-  return <footer>© 2024 Eazy-Maze Website </footer>;
+  return <footer>© 2024 Eazy-Mart Website </footer>;
 };
 
 export default Footer;

@@ -15,7 +15,8 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Welcome to Our Store</h1>
+      <h1 className="homeHeader">Welcome to Eazy-Mart Online Store</h1>
+      <h2 className="homeHeaderTwo">The Future of Online Shopping is NOW!</h2>
       <div className="product-list">
         {products.map(product => (
           <div key={product.id} className="product-card">
