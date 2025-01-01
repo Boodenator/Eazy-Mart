@@ -16,7 +16,11 @@ const Home = () => {
   return (
     <div>
       <h1 className="homeHeader">Welcome to Eazy-Mart Online Store</h1>
-      <h2 className="homeHeaderTwo">The Future of Online Shopping is NOW!</h2>
+      <h3 className="homeHeaderTwo">The Future of Online Shopping is NOW!</h3>
+      <div className="JBL-container">
+        <img src="src/assets/JBL.png" alt="JBL Image" className="JBL-image"/>
+        </div>
+      <input type="text" placeholder="Search for products ..." className="search-bar" width="90%"/>
       <div className="product-list">
         {products.map(product => (
           <div key={product.id} className="product-card">
