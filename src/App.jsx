@@ -27,16 +27,17 @@ function App() {
                 </Routes>
                 
               </main>
-            <Footer />
+            
         </div>
       </Router>
     </CartProvider>
       <div>
         <h1 className='header1'>Your Next Stop For All Your Shopping Needs</h1>
       </div>
-      <p className="read-the-docs">
-       <button className="buttonEnd">Contact Us</button>
-      </p>
+      <div className="contactUs">
+       <button className="contactButton">Contact Us</button>
+      </div>
+      <Footer />
     </>
   );
 }
