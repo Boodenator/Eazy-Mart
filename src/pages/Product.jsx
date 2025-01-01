@@ -1,14 +1,15 @@
-// src/pages/Product.jsx
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { useParams } from 'react-router-dom';
-import { useCart } from '../context/CartContext';
+//import { useCart } from '../context/CartContext';
+import { CartContext } from '../context/CartContext';
 import axios from 'axios';
 
 
 const Product = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
-  const { addToCart } = useCart();
+  //const { addToCart } = useCart();
+  const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
     axios.get(`https://fakestoreapi.com/products/${id}`)

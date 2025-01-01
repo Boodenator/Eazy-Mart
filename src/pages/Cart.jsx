@@ -1,12 +1,24 @@
 // src/pages/Cart.jsx
-import React from 'react';
+import React, { useContext } from 'react';
+import { CartContext } from '../context/CartContext';
 
 const Cart = () => {
-  // You can use state or context to store cart data
+  const { cart } = useContext(CartContext);
+
   return (
     <div>
       <h1>Your Cart</h1>
+      {cart.length === 0 ? (
       <p>Cart is empty</p>
+    ) : (
+      <ul>
+          {cart.map((product, index) => (
+            <li key={index}>
+              {product.title} - {product.price}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };
