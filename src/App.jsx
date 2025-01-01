@@ -32,10 +32,10 @@ function App() {
       </Router>
     </CartProvider>
       <div>
-        <h1 className='header1'>Welcome To Eazy-Mart</h1>
+        <h1 className='header1'>Your Next Stop For All Your Shopping Needs</h1>
       </div>
       <p className="read-the-docs">
-       Your Next Stop For All Your Shopping Needs
+       <button className="buttonEnd">Contact Us</button>
       </p>
     </>
   );

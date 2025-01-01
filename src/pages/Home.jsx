@@ -14,6 +14,7 @@ const Home = () => {
   }, []);
 
   return (
+  <>
     <div>
       <h1 className="homeHeader">Welcome to Eazy-Mart Online Store</h1>
       <h3 className="homeHeaderTwo">The Future of Online Shopping is NOW!</h3>
@@ -28,10 +29,15 @@ const Home = () => {
             <h3>{product.title}</h3>
             <p>${product.price}</p>
             <Link to={`/product/${product.id}`}>View Details</Link>
-          </div>
-        ))}
+     </div>
+            ))}
       </div>
     </div>
+    <div className="New-Arrival-container">
+      <img src="src/assets/New-Arrival.png" alt="New Image" className="New-image"/>
+    </div>
+
+    </>
   );
 };
 
