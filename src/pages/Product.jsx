@@ -22,7 +22,7 @@ const Product = () => {
   return (
     <div>
       <h1 className='viewedProduct'>{product.title}</h1>
-      <img classname="productimg" src={product.image} alt={product.title} />
+      <img className="productImg" src={product.image} alt={product.title} />
       <p className="productDesc">{product.description}</p>
       <p className="productPrice">${product.price}</p>
       <button className="cartBtn"
