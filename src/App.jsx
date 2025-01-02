@@ -5,11 +5,12 @@ import { CartProvider } from './context/CartContext';
 import Home from './pages/Home';
 import Product from './pages/Product';
 import Cart from './pages/Cart';
-//import SignIn from './pages/SignIn';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Form from './components/Form';
 import './index.css';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 function App() {
     return (
@@ -35,8 +36,16 @@ function App() {
         <h1 className='header1'>Your Next Stop For All Your Shopping Needs</h1>
       </div>
       <div className="contactUs">
-       <button className="contactButton">Contact Us</button>
+       <Popup
+                trigger={<button className="contactButton">Contact Us</button>}
+                position="right center">
+                <div>Eazy-Mart Developers</div>
+                <div>Phone: 123-456-7890</div>
+                <div>Email: boode1000@gmail.com</div>
+                </Popup>
+               
       </div>
+      
       <Footer />
     </>
   );
