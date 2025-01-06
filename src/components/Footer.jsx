@@ -84,6 +84,7 @@ const Footer = () => {
               </svg>
             </button>
             <button class="button flex-center">
+            <a href="https://github.com/Boodenator/Eazy-Mart" target="_blank" rel="noopener noreferrer"> 
               <svg
                 viewBox="0 0 20 20"
                 width="22px"
@@ -126,6 +127,7 @@ const Footer = () => {
                   </g>
                 </g>
               </svg>
+              </a>
             </button>
             <button class="button flex-center">
               <svg
