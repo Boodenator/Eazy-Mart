@@ -7,14 +7,14 @@ const Cart = () => {
   //using the reduce method and the accumulator to calculate the total price of the products in the cart
   const total = cart.reduce((acc, product) => acc + product.price, 0);
 
-  //Example to shipping cost
+  //Estimated the shipping cost
   const shippingCost = 20.00;
-  //grand total of the cart
+  //Grand total of the cart
   const grandTotal = total + shippingCost;
 
   return (
     <div>
-      <h1>Your Cart</h1>
+      <h1>Your Cart  <img src="/shopping-cart.png" alt="Cart Icon" className="cart-icon" width="40px"/></h1>
       {cart.length === 0 ? (
       <p>Cart is empty</p>
     ) : (

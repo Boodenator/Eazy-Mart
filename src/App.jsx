@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Form from './components/Form';
 import './index.css';
 import Popup from 'reactjs-popup';
+import Chatbot from './components/Chatbot';
 import 'reactjs-popup/dist/index.css';
 
 function App() {
@@ -41,11 +42,11 @@ function App() {
                 position="right center">
                 <div>Eazy-Mart Developers</div>
                 <div>Phone: 123-456-7890</div>
-                <div>Email: boode1000@gmail.com</div>
+                <div>Email: support@eazy-mart.com</div>
                 </Popup>
                
       </div>
-      
+    <Chatbot />  
       <Footer />
     </>
   );

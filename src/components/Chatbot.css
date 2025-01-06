@@ -1,0 +1,47 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .chatbot-wrapper {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .chatbot-header {
+    display: flex;
+    justify-content: flex-end;
+    background: #00bfff;
+    padding: 5px;
+  }
+  
+  .chatbot-minimize-btn,
+  .chatbot-close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .chatbot-open-btn {
+    background: #00bfff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .minimized {
+    height: 40px;
+    overflow: hidden;
+  }
