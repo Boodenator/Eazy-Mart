@@ -5,6 +5,7 @@ import { CartProvider } from './context/CartContext';
 import Home from './pages/Home';
 import Product from './pages/Product';
 import Cart from './pages/Cart';
+import Payment from './pages/Payment'; //new payment method
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Form from './components/Form';
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/product/:id" element={<Product />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/SignIn" element={<Form />} /> 
+                    <Route path="/payment" element={<Payment />} /> {/*new payment method*/}
                 </Routes>
                 
               </main>
