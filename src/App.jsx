@@ -33,6 +33,7 @@ function App() {
         </div>
       </Router>
     </CartProvider>
+
       <div>
         <h1 className='header1'>Your Next Stop For All Your Shopping Needs</h1>
       </div>
