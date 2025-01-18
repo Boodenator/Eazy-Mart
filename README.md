@@ -9,36 +9,42 @@
 - **Shopping Cart** 🛍️: Add items to the cart, view the cart, and modify the quantities or remove items.
 - **Checkout Process** 💳: Easy-to-use checkout system with payment gateway integration (simulation for now).
 - **Responsive Design** 📱: Fully responsive layout that adapts to mobile, tablet, and desktop screens.
-- **Admin Panel** ⚙️: Admin users can manage products, view orders, and perform other administrative functions.
+
 
 ## Technologies Used 🔧
 
 - **Frontend**: 
   - HTML5
   - CSS3 (Flexbox, Grid, and Responsive Design)
-  - JavaScript (Vanilla JS)
+  - JavaScript
+  - React
 - **Backend**:
-  - Node.js (Optional, if applicable)
-  - Express.js (Optional, if applicable)
-- **Database**:
-  - MongoDB (Optional, if applicable)
-- **Payment Integration**:
-  - Stripe or PayPal (Simulation or integration)
+  - Node.js
 - **Version Control**: Git, GitHub
 
+## 🚀 How to Run This Project Locally
 ## Installation ⚡
 
 To get started with Eazy-Mart locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/eazy-mart.git
+   git clone https://github.com/Boodentaor/Eazy-Mart.git
+2. Navigate to the Project Directory:
+   ```bash
+   cd Eazy-Mart
+3. Install Dependencies:
+   ```bash
+   npm install
+4. Run Development server
+   ```bash
+   npm run dev
+  This will launch the app in your default web browser at http://localhost:3000.
 
-
-License 📜
+## License 📜
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact 📬
+## Contact 📬
 For questions or suggestions, feel free to open an issue in the repository or contact us directly:
 
 Email: boode1000@gmail.com
