@@ -130,6 +130,7 @@ const Footer = () => {
               </a>
             </button>
             <button class="button flex-center">
+            <a href="https://www.youtube.com/@Boodenator" target="_blank" rel="noopener noreferrer">
               <svg
                 stroke="#fff"
                 fill="#fff"
@@ -172,6 +173,7 @@ const Footer = () => {
                   </g>
                 </g>
               </svg>
+              </a>
             </button>
           </div>
 
