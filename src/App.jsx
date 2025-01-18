@@ -3,12 +3,13 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Home from './pages/Home';
-import Product from './pages/Product';
-import Cart from './pages/Cart';
+import Product from './pages/Product'; //products page
+import Cart from './pages/Cart'; //cart page
 import Payment from './pages/Payment'; //new payment method
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Form from './components/Form';
+import Form from './pages/Form'; //sign up page
+import Login from './pages/Login'; //login page
 import './index.css';
 import Popup from 'reactjs-popup';
 import Chatbot from './components/Chatbot';
@@ -27,6 +28,7 @@ function App() {
                     <Route path="/product/:id" element={<Product />} />
                     <Route path="/cart" element={<Cart />} />
                     <Route path="/SignIn" element={<Form />} /> 
+                    <Route path="/login" element={<Login />} />
                     <Route path="/payment" element={<Payment />} /> {/*new payment method*/}
                 </Routes>
                 

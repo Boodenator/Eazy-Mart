@@ -16,7 +16,7 @@ const Form = () => {
           <button>Sign up</button>
         </form>
         <div className="form-section">
-          <p>Have an account? <Link to="/">Log in</Link> </p>
+          <p>Have an account? <Link to="/Login">Log in</Link> </p>
         </div>
       </div>
     </StyledWrapper>
