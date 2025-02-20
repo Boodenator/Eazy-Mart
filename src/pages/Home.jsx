@@ -27,7 +27,7 @@ const Home = () => {
 
      
       <div className="JBL-container">
-        <img src="/JBL.png" alt="JBL Image" className="JBL-image"/>
+        <img src="src/assets/JBL.png" alt="JBL Image" className="JBL-image"/>
         </div>
       <input type="text" placeholder="Search for products ..." className="search-bar" width="90%"/>
       <div className="product-list">
@@ -42,7 +42,7 @@ const Home = () => {
       </div>
     </div>
     <div className="New-Arrival-container">
-      <img src="/New-Arrival.png" alt="New Image" className="New-image"/>
+      <img src="src/assets/New-Arrival.png" alt="New Image" className="New-image"/>
     </div>
 
     </>
